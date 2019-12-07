@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Free42</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>256</width>
+      <height>192</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFree42">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionStates"/>
+    <addaction name="separator"/>
+    <addaction name="actionShow_Print_Out"/>
+    <addaction name="actionPaper_Advance"/>
+    <addaction name="separator"/>
+    <addaction name="actionImport_Programs"/>
+    <addaction name="actionExport_Programs"/>
+    <addaction name="separator"/>
+    <addaction name="actionPreferences"/>
+    <addaction name="separator"/>
+    <addaction name="actionQuit"/>
+   </widget>
+   <widget class="QMenu" name="menuEdit">
+    <property name="title">
+     <string>Edit</string>
+    </property>
+    <addaction name="actionCopy"/>
+    <addaction name="actionPaste"/>
+    <addaction name="separator"/>
+    <addaction name="actionCopy_Print_Out_as_Text"/>
+    <addaction name="actionCopy_Print_Out_as_Image"/>
+    <addaction name="actionClear_Print_Out"/>
+   </widget>
+   <widget class="QMenu" name="menuSkin">
+    <property name="title">
+     <string>Skin</string>
+    </property>
+    <addaction name="actionthis_space_for_rent"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionAbout_Free42"/>
+   </widget>
+   <addaction name="menuFree42"/>
+   <addaction name="menuEdit"/>
+   <addaction name="menuSkin"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <action name="actionStates">
+   <property name="text">
+    <string>States...</string>
+   </property>
+  </action>
+  <action name="actionShow_Print_Out">
+   <property name="text">
+    <string>Show Print-Out</string>
+   </property>
+  </action>
+  <action name="actionPaper_Advance">
+   <property name="text">
+    <string>Paper Advance</string>
+   </property>
+  </action>
+  <action name="actionImport_Programs">
+   <property name="text">
+    <string>Import Programs...</string>
+   </property>
+  </action>
+  <action name="actionExport_Programs">
+   <property name="text">
+    <string>Export Programs...</string>
+   </property>
+  </action>
+  <action name="actionPreferences">
+   <property name="text">
+    <string>Preferences...</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </action>
+  <action name="actionCopy">
+   <property name="text">
+    <string>Copy</string>
+   </property>
+  </action>
+  <action name="actionPaste">
+   <property name="text">
+    <string>Paste</string>
+   </property>
+  </action>
+  <action name="actionCopy_Print_Out_as_Text">
+   <property name="text">
+    <string>Copy Print-Out as Text</string>
+   </property>
+  </action>
+  <action name="actionCopy_Print_Out_as_Image">
+   <property name="text">
+    <string>Copy Print-Out as Image</string>
+   </property>
+  </action>
+  <action name="actionClear_Print_Out">
+   <property name="text">
+    <string>Clear Print-Out</string>
+   </property>
+  </action>
+  <action name="actionthis_space_for_rent">
+   <property name="text">
+    <string>this space for rent</string>
+   </property>
+  </action>
+  <action name="actionAbout_Free42">
+   <property name="text">
+    <string>About Free42...</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
