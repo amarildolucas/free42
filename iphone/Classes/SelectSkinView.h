@@ -1,6 +1,6 @@
 /*****************************************************************************
  * Free42 -- an HP-42S calculator simulator
- * Copyright (C) 2004-2019  Thomas Okken
+ * Copyright (C) 2004-2020  Thomas Okken
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License, version 2,
@@ -20,6 +20,7 @@
 
 @interface SelectSkinView : UIView <UITableViewDelegate, UITableViewDataSource> {
     NSMutableArray *skinNames;
+    bool *enabled;
     UIBarButtonItem *doneButton;
     UITableView *skinTable;
     int selectedIndex;
